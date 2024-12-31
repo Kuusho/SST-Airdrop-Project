@@ -26,7 +26,7 @@ First, we need an ERC20 token that will be distributed. The contract should:
 - Have basic access control for administrative functions
 - Consider implementing pause functionality for emergencies
 
-1. Airdrop Contract
+2. Airdrop Contract
 The main contract needs to:
 - Store the token address
 - Allow uploading of merkle root for recipient verification
@@ -35,7 +35,7 @@ The main contract needs to:
 - Implement reentrancy protection
 - Track claimed status efficiently using bit mapping
 
-1. Testing Structure:
+3. Testing Structure:
 Here's what we'll need to test thoroughly:
 
 ```solidity
