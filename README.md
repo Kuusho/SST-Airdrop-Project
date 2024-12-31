@@ -1,6 +1,21 @@
-## This is an Airdrop Project. The First Goal is to create a functional Airdrop Contract using Foundry and to build a simple, minimalistic frontend for the claimin process.
+## This is an Airdrop Project. 
 
-Key Components:
+The First Goal is to create a functional Airdrop Contract using Foundry and to build a simple, minimalistic frontend for the claiming process.
+
+
+### Implementation Approach:
+1. Start with the token contract and its tests
+2. Build the airdrop contract with basic functionality
+3. Add merkle verification
+4. Implement claiming logic
+5. Add security features
+6. Write deployment scripts
+7. Create helper utilities
+8. Write comprehensive tests
+9. Document everything
+
+
+### Key Components:
 
 1. Token Contract
 First, we need an ERC20 token that will be distributed. The contract should:
@@ -72,21 +87,3 @@ Here's what we'll need to test thoroughly:
 - package.json (dependencies)
 - README.md (documentation)
 ```
-
-Implementation Approach:
-1. Start with the token contract and its tests
-2. Build the airdrop contract with basic functionality
-3. Add merkle verification
-4. Implement claiming logic
-5. Add security features
-6. Write deployment scripts
-7. Create helper utilities
-8. Write comprehensive tests
-9. Document everything
-
-Would you like me to provide more detailed specifications for any of these components? We can then start implementing them one by one, beginning with whichever piece you'd prefer to tackle first.
-
-Also, do you have any specific requirements for:
-- The token supply and distribution mechanics?
-- The claiming period duration?
-- Any special access control needs?
