@@ -1,4 +1,6 @@
 ## This is an Airdrop Project. 
+_Start Date: 31st December 2024_
+_Deadline: 31st March 2024_
 
 The First Goal is to create a functional Airdrop Contract using Foundry and to build a simple, minimalistic frontend for the claiming process.
 
